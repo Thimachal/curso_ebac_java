@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <form><caption><h1>Formulário para Cadastro</h1></caption>
+        <form><caption><h1>Formulário de Cadastro</h1></caption>
             <div>
                 <label for="nome">Nome: </label>
                 <input type="text" id="nome" name="nome" required>
@@ -18,12 +18,12 @@
                 <label for="email">Email: </label>
                 <input type="email" id="email" name="email" required>
         
-                <label for="password">- Password: </label>
+                <label for="password">- Senha: </label>
                 <input type="password" id="password" name="password">
             </div>
             <br>
             <div>
-                <input type="submit"/>
+                <input type="submit" value="Cadastrar"/>
                 <button type="reset">Limpar</button>
             </div>
         </form>
