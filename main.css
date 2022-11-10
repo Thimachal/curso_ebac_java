@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: #2ec1cc;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #273bae;
+}
